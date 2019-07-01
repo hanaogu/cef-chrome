@@ -1,0 +1,26 @@
+[0701/133437:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[0701/133437:WARNING:channel.cc(359)] RawChannel write error
+[0701/133439:ERROR:gpu_video_decode_accelerator.cc(375)] HW video decode not available for profile 3
+[0701/133504:ERROR:gpu_video_decode_accelerator.cc(375)] HW video decode not available for profile 3
+[0701/133544:ERROR:gpu_video_decode_accelerator.cc(375)] HW video decode not available for profile 3
+[0701/133652:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0701/133652:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0701/133742:WARNING:webrtcvoiceengine.cc(330)] Unexpected codec: PCMU/8000/2 (110)
+[0701/133742:WARNING:webrtcvoiceengine.cc(330)] Unexpected codec: PCMA/8000/2 (118)
+[0701/133742:WARNING:webrtcvoiceengine.cc(330)] Unexpected codec: G722/8000/2 (119)
+[0701/133742:ERROR:webrtcsession.cc(1446)] ConnectDataChannel called when data_channel_ is NULL.
+[0701/133742:ERROR:webrtcsession.cc(1446)] ConnectDataChannel called when data_channel_ is NULL.
+[0701/133743:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0701/133743:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0701/133743:ERROR:webrtcsession.cc(1446)] ConnectDataChannel called when data_channel_ is NULL.
+[0701/133743:WARNING:mediasession.cc(393)] Duplicate id found. Reassigning from 101 to 127
+[0701/133743:WARNING:mediasession.cc(393)] Duplicate id found. Reassigning from 101 to 127
+[0701/133743:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0701/133743:WARNING:stunport.cc(379)] Jingle:Port[data:1:0::Net[{F7D2F3B2-368B-40A9-8B82-F6FD83611B64}:fdb2:2c26:f4e4:x:x:x:x:x/128:Ethernet]]: StunPort: stun host lookup received error 0
+[0701/133743:WARNING:stunport.cc(379)] Jingle:Port[data:1:0::Net[{F7D2F3B2-368B-40A9-8B82-F6FD83611B64}:fdb2:2c26:f4e4:x:x:x:x:x/64:Ethernet]]: StunPort: stun host lookup received error 0
+[0701/133744:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0701/133753:ERROR:stunport.cc(96)] Binding request timed out from 10.211.55.x:49731 ({F7D2F3B2-368B-40A9-8B82-F6FD83611B64})
+[0701/133847:ERROR:ipc_channel_win.cc(512)] pipe error: 232
+[0701/134416:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[0701/134416:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[0701/134416:WARNING:channel.cc(359)] RawChannel write error
