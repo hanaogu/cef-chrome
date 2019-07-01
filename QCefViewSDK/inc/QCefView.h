@@ -62,8 +62,8 @@ public:
 	/** invokerfunction注册实例，只允许注册一个
 	**	QCefInvoker* invoker:	继承于QCefInvoker，传递指针即可
 	**/
-	QCefInvoker*  getInvoker();
-	void registerInvoker(QCefInvoker* invoker);
+	QObject* getInvoker(const QString& id);
+	void registerInvoker(const QString& id, QObject* invoker);
 
 	/** 
 	**	UrlCookie操作，查询cookie，设置cookie
@@ -87,7 +87,7 @@ public:
 	**/
 	virtual bool excContextMenu(int command);
 	virtual bool getMenuInfo(int index, int& command, QString& lblName, bool& itemEnable);		//利用switch case语句
-
+	void runJavaScript(const QString & scriptSource);
 	/**navigate to the content
 	 **	content:
 	 **		HTML content
@@ -236,6 +236,7 @@ private slots:
 
 private:
 	friend class QCefQuery;
+	std::map<QString, QObject*>mmapInvoker;
 	QPointer<CCefWindow> pCefWindow_;
 	QPointer<QCefInvoker> pCefInvoker_;
 };
